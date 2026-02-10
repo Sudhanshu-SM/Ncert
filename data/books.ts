@@ -46,7 +46,7 @@ export const classes: ClassData[] = [
                 id: "hindi",
                 name: "Hindi",
                 book: "Rimjhim",
-                icon: "🔤",
+                icon: "हिं",
                 chapters: [
                     { number: 1, title: "झूला", pdfUrl: pdf(1, "hindi", 1) },
                     { number: 2, title: "आम की कहानी", pdfUrl: pdf(1, "hindi", 2) },
@@ -83,7 +83,7 @@ export const classes: ClassData[] = [
                 id: "hindi",
                 name: "Hindi",
                 book: "Rimjhim",
-                icon: "🔤",
+                icon: "हिं",
                 chapters: [
                     { number: 1, title: "ऊँट चला", pdfUrl: pdf(2, "hindi", 1) },
                     { number: 2, title: "भालू ने खेली फुटबॉल", pdfUrl: pdf(2, "hindi", 2) },
@@ -119,7 +119,7 @@ export const classes: ClassData[] = [
                 id: "hindi",
                 name: "Hindi",
                 book: "Rimjhim",
-                icon: "🔤",
+                icon: "हिं",
                 chapters: [
                     { number: 1, title: "कक्कू", pdfUrl: pdf(3, "hindi", 1) },
                     { number: 2, title: "शेखीबाज़ मक्खी", pdfUrl: pdf(3, "hindi", 2) },
@@ -165,7 +165,7 @@ export const classes: ClassData[] = [
                 id: "hindi",
                 name: "Hindi",
                 book: "Rimjhim",
-                icon: "🔤",
+                icon: "हिं",
                 chapters: [
                     { number: 1, title: "मन के भोले-भाले बादल", pdfUrl: pdf(4, "hindi", 1) },
                     { number: 2, title: "जैसा सवाल वैसा जवाब", pdfUrl: pdf(4, "hindi", 2) },
@@ -211,7 +211,7 @@ export const classes: ClassData[] = [
                 id: "hindi",
                 name: "Hindi",
                 book: "Rimjhim",
-                icon: "🔤",
+                icon: "हिं",
                 chapters: [
                     { number: 1, title: "राख की रस्सी", pdfUrl: pdf(5, "hindi", 1) },
                     { number: 2, title: "फ़सलों के त्योहार", pdfUrl: pdf(5, "hindi", 2) },
@@ -260,7 +260,7 @@ export const classes: ClassData[] = [
                 id: "hindi",
                 name: "Hindi",
                 book: "Vasant",
-                icon: "🔤",
+                icon: "हिं",
                 chapters: [
                     { number: 1, title: "वह चिड़िया जो", pdfUrl: pdf(6, "hindi", 1) },
                     { number: 2, title: "बचपन", pdfUrl: pdf(6, "hindi", 2) },
@@ -345,7 +345,7 @@ export const classes: ClassData[] = [
                 id: "hindi",
                 name: "Hindi",
                 book: "Vasant",
-                icon: "🔤",
+                icon: "हिं",
                 chapters: [
                     { number: 1, title: "हम पंछी उन्मुक्त गगन के", pdfUrl: pdf(7, "hindi", 1) },
                     { number: 2, title: "दादी माँ", pdfUrl: pdf(7, "hindi", 2) },
@@ -428,7 +428,7 @@ export const classes: ClassData[] = [
                 id: "hindi",
                 name: "Hindi",
                 book: "Vasant",
-                icon: "🔤",
+                icon: "हिं",
                 chapters: [
                     { number: 1, title: "ध्वनि", pdfUrl: pdf(8, "hindi", 1) },
                     { number: 2, title: "लाख की चूड़ियाँ", pdfUrl: pdf(8, "hindi", 2) },
@@ -506,16 +506,13 @@ export const classes: ClassData[] = [
                     { number: 3, title: "Coordinate Geometry", pdfUrl: pdf(9, "math", 3) },
                     { number: 4, title: "Linear Equations in Two Variables", pdfUrl: pdf(9, "math", 4) },
                     { number: 5, title: "Introduction to Euclid's Geometry", pdfUrl: pdf(9, "math", 5) },
-                    { number: 6, title: "Lines and Angles", pdfUrl: pdf(9, "math", 6) },
+                    { number: 6, title: "Lines And Angles", pdfUrl: pdf(9, "math", 6) },
                     { number: 7, title: "Triangles", pdfUrl: pdf(9, "math", 7) },
                     { number: 8, title: "Quadrilaterals", pdfUrl: pdf(9, "math", 8) },
-                    { number: 9, title: "Areas of Parallelograms and Triangles", pdfUrl: pdf(9, "math", 9) },
-                    { number: 10, title: "Circles", pdfUrl: pdf(9, "math", 10) },
-                    { number: 11, title: "Constructions", pdfUrl: pdf(9, "math", 11) },
-                    { number: 12, title: "Heron's Formula", pdfUrl: pdf(9, "math", 12) },
-                    { number: 13, title: "Surface Areas and Volumes", pdfUrl: pdf(9, "math", 13) },
-                    { number: 14, title: "Statistics", pdfUrl: pdf(9, "math", 14) },
-                    { number: 15, title: "Probability", pdfUrl: pdf(9, "math", 15) },
+                    { number: 9, title: "Circles", pdfUrl: pdf(9, "math", 9) },
+                    { number: 10, title: "Heron's Formula", pdfUrl: pdf(9, "math", 10) },
+                    { number: 11, title: "Surface Area And Volumes", pdfUrl: pdf(9, "math", 11) },
+                    { number: 12, title: "Statistics", pdfUrl: pdf(9, "math", 12) },
                 ]
             },
             {
@@ -525,20 +522,17 @@ export const classes: ClassData[] = [
                 icon: "🔬",
                 chapters: [
                     { number: 1, title: "Matter in Our Surroundings", pdfUrl: pdf(9, "science", 1) },
-                    { number: 2, title: "Is Matter Around Us Pure?", pdfUrl: pdf(9, "science", 2) },
-                    { number: 3, title: "Atoms and Molecules", pdfUrl: pdf(9, "science", 3) },
-                    { number: 4, title: "Structure of the Atom", pdfUrl: pdf(9, "science", 4) },
+                    { number: 2, title: "Is Matter Around Us Pure", pdfUrl: pdf(9, "science", 2) },
+                    { number: 3, title: "Atoms And Molecules", pdfUrl: pdf(9, "science", 3) },
+                    { number: 4, title: "Structure of The Atom", pdfUrl: pdf(9, "science", 4) },
                     { number: 5, title: "The Fundamental Unit of Life", pdfUrl: pdf(9, "science", 5) },
                     { number: 6, title: "Tissues", pdfUrl: pdf(9, "science", 6) },
-                    { number: 7, title: "Diversity in Living Organisms", pdfUrl: pdf(9, "science", 7) },
-                    { number: 8, title: "Motion", pdfUrl: pdf(9, "science", 8) },
-                    { number: 9, title: "Force and Laws of Motion", pdfUrl: pdf(9, "science", 9) },
-                    { number: 10, title: "Gravitation", pdfUrl: pdf(9, "science", 10) },
-                    { number: 11, title: "Work and Energy", pdfUrl: pdf(9, "science", 11) },
-                    { number: 12, title: "Sound", pdfUrl: pdf(9, "science", 12) },
-                    { number: 13, title: "Why Do We Fall Ill", pdfUrl: pdf(9, "science", 13) },
-                    { number: 14, title: "Natural Resources", pdfUrl: pdf(9, "science", 14) },
-                    { number: 15, title: "Improvement in Food Resources", pdfUrl: pdf(9, "science", 15) },
+                    { number: 7, title: "Motion", pdfUrl: pdf(9, "science", 7) },
+                    { number: 8, title: "Force And Laws of Motion", pdfUrl: pdf(9, "science", 8) },
+                    { number: 9, title: "Gravitation", pdfUrl: pdf(9, "science", 9) },
+                    { number: 10, title: "Work And Energy", pdfUrl: pdf(9, "science", 10) },
+                    { number: 11, title: "Sound", pdfUrl: pdf(9, "science", 11) },
+                    { number: 12, title: "Improvement in Food Resources", pdfUrl: pdf(9, "science", 12) },
                 ]
             },
             {
@@ -550,13 +544,36 @@ export const classes: ClassData[] = [
                     { number: 1, title: "The Fun They Had", pdfUrl: pdf(9, "english", 1) },
                     { number: 2, title: "The Sound of Music", pdfUrl: pdf(9, "english", 2) },
                     { number: 3, title: "The Little Girl", pdfUrl: pdf(9, "english", 3) },
+                    { number: 4, title: "A Truly Beautiful Mind", pdfUrl: pdf(9, "english", 4) },
+                    { number: 5, title: "The Snake and the Mirror", pdfUrl: pdf(9, "english", 5) },
+                    { number: 6, title: "My Childhood", pdfUrl: pdf(9, "english", 6) },
+                    { number: 7, title: "Reach for the Top", pdfUrl: pdf(9, "english", 7) },
+                    { number: 8, title: "Kathmandu", pdfUrl: pdf(9, "english", 8) },
+                    { number: 9, title: "If I were you", pdfUrl: pdf(9, "english", 9) },
+                ]
+            },
+            {
+                id: "english-supplementary",
+                name: "English - Supplementary",
+                book: "Moments",
+                icon: "📚",
+                chapters: [
+                    { number: 1, title: "The Lost Child", pdfUrl: pdf(9, "english-supplementary", 1) },
+                    { number: 2, title: "The Adventures of Toto", pdfUrl: pdf(9, "english-supplementary", 2) },
+                    { number: 3, title: "Iswaran the Storyteller", pdfUrl: pdf(9, "english-supplementary", 3) },
+                    { number: 4, title: "In the Kingdom of Fools", pdfUrl: pdf(9, "english-supplementary", 4) },
+                    { number: 5, title: "The Happy Prince", pdfUrl: pdf(9, "english-supplementary", 5) },
+                    { number: 6, title: "Weathering the Storm in Ersama", pdfUrl: pdf(9, "english-supplementary", 6) },
+                    { number: 7, title: "The Last Leaf", pdfUrl: pdf(9, "english-supplementary", 7) },
+                    { number: 8, title: "A House Is Not a Home", pdfUrl: pdf(9, "english-supplementary", 8) },
+                    { number: 9, title: "The Beggar", pdfUrl: pdf(9, "english-supplementary", 9) },
                 ]
             },
             {
                 id: "hindi",
                 name: "Hindi",
                 book: "Kshitij & Kritika",
-                icon: "🔤",
+                icon: "हिं",
                 chapters: [
                     { number: 1, title: "दो बैलों की कथा", pdfUrl: pdf(9, "hindi", 1) },
                     { number: 2, title: "ल्हासा की ओर", pdfUrl: pdf(9, "hindi", 2) },
@@ -570,6 +587,9 @@ export const classes: ClassData[] = [
                 chapters: [
                     { number: 1, title: "The French Revolution", pdfUrl: pdf(9, "history", 1) },
                     { number: 2, title: "Socialism in Europe and the Russian Revolution", pdfUrl: pdf(9, "history", 2) },
+                    { number: 3, title: "Nazism and the Rise of Hitler", pdfUrl: pdf(9, "history", 3) },
+                    { number: 4, title: "Forest Society and Colonialism", pdfUrl: pdf(9, "history", 4) },
+                    { number: 5, title: "Pastoralists in the Modern World", pdfUrl: pdf(9, "history", 5) },
                 ]
             },
             {
@@ -580,6 +600,9 @@ export const classes: ClassData[] = [
                 chapters: [
                     { number: 1, title: "What is Democracy? Why Democracy?", pdfUrl: pdf(9, "civics", 1) },
                     { number: 2, title: "Constitutional Design", pdfUrl: pdf(9, "civics", 2) },
+                    { number: 3, title: "Electoral Politics", pdfUrl: pdf(9, "civics", 3) },
+                    { number: 4, title: "Working of Institutions", pdfUrl: pdf(9, "civics", 4) },
+                    { number: 5, title: "Democratic Rights", pdfUrl: pdf(9, "civics", 5) },
                 ]
             },
             {
@@ -590,6 +613,40 @@ export const classes: ClassData[] = [
                 chapters: [
                     { number: 1, title: "India – Size and Location", pdfUrl: pdf(9, "geography", 1) },
                     { number: 2, title: "Physical Features of India", pdfUrl: pdf(9, "geography", 2) },
+                    { number: 3, title: "Drainage", pdfUrl: pdf(9, "geography", 3) },
+                    { number: 4, title: "Climate", pdfUrl: pdf(9, "geography", 4) },
+                    { number: 5, title: "Natural Vegetation and Wildlife", pdfUrl: pdf(9, "geography", 5) },
+                    { number: 6, title: "Population", pdfUrl: pdf(9, "geography", 6) },
+                ]
+            },
+            {
+                id: "economics",
+                name: "Economics",
+                book: "Economics",
+                icon: "💰",
+                chapters: [
+                    { number: 1, title: "The Story of Village Palampur", pdfUrl: pdf(9, "economics", 1) },
+                    { number: 2, title: "People as Resource", pdfUrl: pdf(9, "economics", 2) },
+                    { number: 3, title: "Poverty as a Challenge", pdfUrl: pdf(9, "economics", 3) },
+                    { number: 4, title: "Food Security in India", pdfUrl: pdf(9, "economics", 4) },
+                ]
+            },
+            {
+                id: "sanskrit",
+                name: "Sanskrit",
+                book: "Shemushi",
+                icon: "📜",
+                chapters: [
+                    { number: 1, title: "भारतीवसन्तगीतिः", pdfUrl: pdf(9, "sanskrit", 1) },
+                    { number: 2, title: "स्वर्णकाकः", pdfUrl: pdf(9, "sanskrit", 2) },
+                    { number: 3, title: "गोदोहनम्", pdfUrl: pdf(9, "sanskrit", 3) },
+                    { number: 4, title: "सूक्तिमौक्तिकम्", pdfUrl: pdf(9, "sanskrit", 4) },
+                    { number: 5, title: "भ्रान्तो बालः", pdfUrl: pdf(9, "sanskrit", 5) },
+                    { number: 6, title: "लौहतुला", pdfUrl: pdf(9, "sanskrit", 6) },
+                    { number: 7, title: "सिकतासेतुः", pdfUrl: pdf(9, "sanskrit", 7) },
+                    { number: 8, title: "जटायोः शौर्यम्", pdfUrl: pdf(9, "sanskrit", 8) },
+                    { number: 9, title: "पर्यावरणम्", pdfUrl: pdf(9, "sanskrit", 9) },
+                    { number: 10, title: "वाङ्मनः प्राणस्वरूपम्", pdfUrl: pdf(9, "sanskrit", 10) },
                 ]
             }
         ]
@@ -614,11 +671,10 @@ export const classes: ClassData[] = [
                     { number: 8, title: "Introduction to Trigonometry", pdfUrl: pdf(10, "math", 8) },
                     { number: 9, title: "Some Applications of Trigonometry", pdfUrl: pdf(10, "math", 9) },
                     { number: 10, title: "Circles", pdfUrl: pdf(10, "math", 10) },
-                    { number: 11, title: "Constructions", pdfUrl: pdf(10, "math", 11) },
-                    { number: 12, title: "Areas Related to Circles", pdfUrl: pdf(10, "math", 12) },
-                    { number: 13, title: "Surface Areas and Volumes", pdfUrl: pdf(10, "math", 13) },
-                    { number: 14, title: "Statistics", pdfUrl: pdf(10, "math", 14) },
-                    { number: 15, title: "Probability", pdfUrl: pdf(10, "math", 15) },
+                    { number: 11, title: "Areas Related to Circles", pdfUrl: pdf(10, "math", 11) },
+                    { number: 12, title: "Surface Areas and Volumes", pdfUrl: pdf(10, "math", 12) },
+                    { number: 13, title: "Statistics", pdfUrl: pdf(10, "math", 13) },
+                    { number: 14, title: "Probability", pdfUrl: pdf(10, "math", 14) },
                 ]
             },
             {
@@ -631,18 +687,15 @@ export const classes: ClassData[] = [
                     { number: 2, title: "Acids, Bases and Salts", pdfUrl: pdf(10, "science", 2) },
                     { number: 3, title: "Metals and Non-metals", pdfUrl: pdf(10, "science", 3) },
                     { number: 4, title: "Carbon and its Compounds", pdfUrl: pdf(10, "science", 4) },
-                    { number: 5, title: "Periodic Classification of Elements", pdfUrl: pdf(10, "science", 5) },
-                    { number: 6, title: "Life Processes", pdfUrl: pdf(10, "science", 6) },
-                    { number: 7, title: "Control and Coordination", pdfUrl: pdf(10, "science", 7) },
-                    { number: 8, title: "How do Organisms Reproduce?", pdfUrl: pdf(10, "science", 8) },
-                    { number: 9, title: "Heredity and Evolution", pdfUrl: pdf(10, "science", 9) },
-                    { number: 10, title: "Light - Reflection and Refraction", pdfUrl: pdf(10, "science", 10) },
-                    { number: 11, title: "Human Eye and Colourful World", pdfUrl: pdf(10, "science", 11) },
-                    { number: 12, title: "Electricity", pdfUrl: pdf(10, "science", 12) },
-                    { number: 13, title: "Magnetic Effects of Electric Current", pdfUrl: pdf(10, "science", 13) },
-                    { number: 14, title: "Sources of Energy", pdfUrl: pdf(10, "science", 14) },
-                    { number: 15, title: "Our Environment", pdfUrl: pdf(10, "science", 15) },
-                    { number: 16, title: "Sustainable Management of Natural Resources", pdfUrl: pdf(10, "science", 16) },
+                    { number: 5, title: "Life Processes", pdfUrl: pdf(10, "science", 5) },
+                    { number: 6, title: "Control and Coordination", pdfUrl: pdf(10, "science", 6) },
+                    { number: 7, title: "How do Organisms Reproduce?", pdfUrl: pdf(10, "science", 7) },
+                    { number: 8, title: "Heredity", pdfUrl: pdf(10, "science", 8) },
+                    { number: 9, title: "Light – Reflection and Refraction", pdfUrl: pdf(10, "science", 9) },
+                    { number: 10, title: "The Human Eye and the Colourful World", pdfUrl: pdf(10, "science", 10) },
+                    { number: 11, title: "Electricity", pdfUrl: pdf(10, "science", 11) },
+                    { number: 12, title: "Magnetic Effects of Electric Current", pdfUrl: pdf(10, "science", 12) },
+                    { number: 13, title: "Our Environment", pdfUrl: pdf(10, "science", 13) },
                 ]
             },
             {
@@ -654,13 +707,36 @@ export const classes: ClassData[] = [
                     { number: 1, title: "A Letter to God", pdfUrl: pdf(10, "english", 1) },
                     { number: 2, title: "Nelson Mandela: Long Walk to Freedom", pdfUrl: pdf(10, "english", 2) },
                     { number: 3, title: "Two Stories about Flying", pdfUrl: pdf(10, "english", 3) },
+                    { number: 4, title: "From the Diary of Anne Frank", pdfUrl: pdf(10, "english", 4) },
+                    { number: 5, title: "Glimpses of India", pdfUrl: pdf(10, "english", 5) },
+                    { number: 6, title: "Mijbil the Otter", pdfUrl: pdf(10, "english", 6) },
+                    { number: 7, title: "Madam Rides the Bus", pdfUrl: pdf(10, "english", 7) },
+                    { number: 8, title: "The Sermon at Benares", pdfUrl: pdf(10, "english", 8) },
+                    { number: 9, title: "The Proposal", pdfUrl: pdf(10, "english", 9) },
+                ]
+            },
+            {
+                id: "english-supplementary",
+                name: "English - Supplementary",
+                book: "Footprints without Feet",
+                icon: "📚",
+                chapters: [
+                    { number: 1, title: "A Triumph of Surgery", pdfUrl: pdf(10, "english-supplementary", 1) },
+                    { number: 2, title: "The Thief's Story", pdfUrl: pdf(10, "english-supplementary", 2) },
+                    { number: 3, title: "The Midnight Visitor", pdfUrl: pdf(10, "english-supplementary", 3) },
+                    { number: 4, title: "A Question of Trust", pdfUrl: pdf(10, "english-supplementary", 4) },
+                    { number: 5, title: "Footprints without Feet", pdfUrl: pdf(10, "english-supplementary", 5) },
+                    { number: 6, title: "The Making of a Scientist", pdfUrl: pdf(10, "english-supplementary", 6) },
+                    { number: 7, title: "The Necklace", pdfUrl: pdf(10, "english-supplementary", 7) },
+                    { number: 8, title: "Bholi", pdfUrl: pdf(10, "english-supplementary", 8) },
+                    { number: 9, title: "The Book That Saved the Earth", pdfUrl: pdf(10, "english-supplementary", 9) },
                 ]
             },
             {
                 id: "hindi",
                 name: "Hindi",
                 book: "Kshitij & Kritika",
-                icon: "🔤",
+                icon: "हिं",
                 chapters: [
                     { number: 1, title: "सूरदास के पद", pdfUrl: pdf(10, "hindi", 1) },
                     { number: 2, title: "राम-लक्ष्मण-परशुराम संवाद", pdfUrl: pdf(10, "hindi", 2) },
@@ -674,6 +750,9 @@ export const classes: ClassData[] = [
                 chapters: [
                     { number: 1, title: "The Rise of Nationalism in Europe", pdfUrl: pdf(10, "history", 1) },
                     { number: 2, title: "Nationalism in India", pdfUrl: pdf(10, "history", 2) },
+                    { number: 3, title: "The Making of a Global World", pdfUrl: pdf(10, "history", 3) },
+                    { number: 4, title: "The Age of Industrialisation", pdfUrl: pdf(10, "history", 4) },
+                    { number: 5, title: "Print Culture and the Modern World", pdfUrl: pdf(10, "history", 5) },
                 ]
             },
             {
@@ -682,8 +761,11 @@ export const classes: ClassData[] = [
                 book: "Democratic Politics II",
                 icon: "⚖️",
                 chapters: [
-                    { number: 1, title: "Power Sharing", pdfUrl: pdf(10, "civics", 1) },
+                    { number: 1, title: "Power-sharing", pdfUrl: pdf(10, "civics", 1) },
                     { number: 2, title: "Federalism", pdfUrl: pdf(10, "civics", 2) },
+                    { number: 3, title: "Gender, Religion and Caste", pdfUrl: pdf(10, "civics", 3) },
+                    { number: 4, title: "Political Parties", pdfUrl: pdf(10, "civics", 4) },
+                    { number: 5, title: "Outcomes of Democracy", pdfUrl: pdf(10, "civics", 5) },
                 ]
             },
             {
@@ -694,6 +776,42 @@ export const classes: ClassData[] = [
                 chapters: [
                     { number: 1, title: "Resources and Development", pdfUrl: pdf(10, "geography", 1) },
                     { number: 2, title: "Forest and Wildlife Resources", pdfUrl: pdf(10, "geography", 2) },
+                    { number: 3, title: "Water Resources", pdfUrl: pdf(10, "geography", 3) },
+                    { number: 4, title: "Agriculture", pdfUrl: pdf(10, "geography", 4) },
+                    { number: 5, title: "Minerals and Energy Resources", pdfUrl: pdf(10, "geography", 5) },
+                    { number: 6, title: "Manufacturing Industries", pdfUrl: pdf(10, "geography", 6) },
+                    { number: 7, title: "Lifelines of National Economy", pdfUrl: pdf(10, "geography", 7) },
+                ]
+            },
+            {
+                id: "economics",
+                name: "Economics",
+                book: "Understanding Economic Development",
+                icon: "💰",
+                chapters: [
+                    { number: 1, title: "Development", pdfUrl: pdf(10, "economics", 1) },
+                    { number: 2, title: "Sectors of the Indian Economy", pdfUrl: pdf(10, "economics", 2) },
+                    { number: 3, title: "Money and Credit", pdfUrl: pdf(10, "economics", 3) },
+                    { number: 4, title: "Globalisation and the Indian Economy", pdfUrl: pdf(10, "economics", 4) },
+                    { number: 5, title: "Consumer Rights", pdfUrl: pdf(10, "economics", 5) },
+                ]
+            },
+            {
+                id: "sanskrit",
+                name: "Sanskrit",
+                book: "Shemushi",
+                icon: "📜",
+                chapters: [
+                    { number: 1, title: "शुचिपर्यावरणम्", pdfUrl: pdf(10, "sanskrit", 1) },
+                    { number: 2, title: "बुद्धिर्बलवती सदा", pdfUrl: pdf(10, "sanskrit", 2) },
+                    { number: 3, title: "शिशुलालनम्", pdfUrl: pdf(10, "sanskrit", 3) },
+                    { number: 4, title: "जननी तुल्यवत्सला", pdfUrl: pdf(10, "sanskrit", 4) },
+                    { number: 5, title: "सुभाषितानि", pdfUrl: pdf(10, "sanskrit", 5) },
+                    { number: 6, title: "सौहार्दं प्रकृतेः शोभा", pdfUrl: pdf(10, "sanskrit", 6) },
+                    { number: 7, title: "विचित्रः साक्षी", pdfUrl: pdf(10, "sanskrit", 7) },
+                    { number: 8, title: "सूक्तयः", pdfUrl: pdf(10, "sanskrit", 8) },
+                    { number: 9, title: "भूकंपविभीषिका", pdfUrl: pdf(10, "sanskrit", 9) },
+                    { number: 10, title: "अन्योक्तयः", pdfUrl: pdf(10, "sanskrit", 10) },
                 ]
             }
         ]
@@ -867,22 +985,16 @@ export const classes: ClassData[] = [
                 book: "Chemistry Part I & II",
                 icon: "🧪",
                 chapters: [
-                    { number: 1, title: "The Solid State", pdfUrl: pdf(12, "chemistry", 1) },
-                    { number: 2, title: "Solutions", pdfUrl: pdf(12, "chemistry", 2) },
-                    { number: 3, title: "Electrochemistry", pdfUrl: pdf(12, "chemistry", 3) },
-                    { number: 4, title: "Chemical Kinetics", pdfUrl: pdf(12, "chemistry", 4) },
-                    { number: 5, title: "Surface Chemistry", pdfUrl: pdf(12, "chemistry", 5) },
-                    { number: 6, title: "General Principles and Processes of Isolation of Elements", pdfUrl: pdf(12, "chemistry", 6) },
-                    { number: 7, title: "The p-Block Elements", pdfUrl: pdf(12, "chemistry", 7) },
-                    { number: 8, title: "The d- and f-Block Elements", pdfUrl: pdf(12, "chemistry", 8) },
-                    { number: 9, title: "Coordination Compounds", pdfUrl: pdf(12, "chemistry", 9) },
-                    { number: 10, title: "Haloalkanes and Haloarenes", pdfUrl: pdf(12, "chemistry", 10) },
-                    { number: 11, title: "Alcohols, Phenols and Ethers", pdfUrl: pdf(12, "chemistry", 11) },
-                    { number: 12, title: "Aldehydes, Ketones and Carboxylic Acids", pdfUrl: pdf(12, "chemistry", 12) },
-                    { number: 13, title: "Amines", pdfUrl: pdf(12, "chemistry", 13) },
-                    { number: 14, title: "Biomolecules", pdfUrl: pdf(12, "chemistry", 14) },
-                    { number: 15, title: "Polymers", pdfUrl: pdf(12, "chemistry", 15) },
-                    { number: 16, title: "Chemistry in Everyday Life", pdfUrl: pdf(12, "chemistry", 16) },
+                    { number: 1, title: "Solutions", pdfUrl: pdf(12, "chemistry", 1) },
+                    { number: 2, title: "Electrochemistry", pdfUrl: pdf(12, "chemistry", 2) },
+                    { number: 3, title: "Chemical Kinetics", pdfUrl: pdf(12, "chemistry", 3) },
+                    { number: 4, title: "The d-and f-Block Elements", pdfUrl: pdf(12, "chemistry", 4) },
+                    { number: 5, title: "Coordination Compounds", pdfUrl: pdf(12, "chemistry", 5) },
+                    { number: 6, title: "Haloalkanes and Haloarenes", pdfUrl: pdf(12, "chemistry", 6) },
+                    { number: 7, title: "Alcohols, Phenols and Ethers", pdfUrl: pdf(12, "chemistry", 7) },
+                    { number: 8, title: "Aldehydes, Ketones and Carboxylic Acids", pdfUrl: pdf(12, "chemistry", 8) },
+                    { number: 9, title: "Amines", pdfUrl: pdf(12, "chemistry", 9) },
+                    { number: 10, title: "Biomolecules", pdfUrl: pdf(12, "chemistry", 10) },
                 ]
             },
             {
@@ -891,22 +1003,19 @@ export const classes: ClassData[] = [
                 book: "Biology",
                 icon: "🧬",
                 chapters: [
-                    { number: 1, title: "Reproduction in Organisms", pdfUrl: pdf(12, "biology", 1) },
-                    { number: 2, title: "Sexual Reproduction in Flowering Plants", pdfUrl: pdf(12, "biology", 2) },
-                    { number: 3, title: "Human Reproduction", pdfUrl: pdf(12, "biology", 3) },
-                    { number: 4, title: "Reproductive Health", pdfUrl: pdf(12, "biology", 4) },
-                    { number: 5, title: "Principles of Inheritance and Variation", pdfUrl: pdf(12, "biology", 5) },
-                    { number: 6, title: "Molecular Basis of Inheritance", pdfUrl: pdf(12, "biology", 6) },
-                    { number: 7, title: "Evolution", pdfUrl: pdf(12, "biology", 7) },
-                    { number: 8, title: "Human Health and Diseases", pdfUrl: pdf(12, "biology", 8) },
-                    { number: 9, title: "Strategies for Enhancement in Food Production", pdfUrl: pdf(12, "biology", 9) },
-                    { number: 10, title: "Microbes in Human Welfare", pdfUrl: pdf(12, "biology", 10) },
-                    { number: 11, title: "Biotechnology: Principles and Processes", pdfUrl: pdf(12, "biology", 11) },
-                    { number: 12, title: "Biotechnology and its Applications", pdfUrl: pdf(12, "biology", 12) },
-                    { number: 13, title: "Organisms and Populations", pdfUrl: pdf(12, "biology", 13) },
-                    { number: 14, title: "Ecosystem", pdfUrl: pdf(12, "biology", 14) },
-                    { number: 15, title: "Biodiversity and Conservation", pdfUrl: pdf(12, "biology", 15) },
-                    { number: 16, title: "Environmental Issues", pdfUrl: pdf(12, "biology", 16) },
+                    { number: 1, title: "Sexual Reproduction in Flowering Plants", pdfUrl: pdf(12, "biology", 1) },
+                    { number: 2, title: "Human Reproduction", pdfUrl: pdf(12, "biology", 2) },
+                    { number: 3, title: "Reproductive Health", pdfUrl: pdf(12, "biology", 3) },
+                    { number: 4, title: "Principles of Inheritance and Variation", pdfUrl: pdf(12, "biology", 4) },
+                    { number: 5, title: "Molecular Basis of Inheritance", pdfUrl: pdf(12, "biology", 5) },
+                    { number: 6, title: "Evolution", pdfUrl: pdf(12, "biology", 6) },
+                    { number: 7, title: "Human Health and Disease", pdfUrl: pdf(12, "biology", 7) },
+                    { number: 8, title: "Microbes in Human Welfare", pdfUrl: pdf(12, "biology", 8) },
+                    { number: 9, title: "Biotechnology: Principles and Processes", pdfUrl: pdf(12, "biology", 9) },
+                    { number: 10, title: "Biotechnology and its Applications", pdfUrl: pdf(12, "biology", 10) },
+                    { number: 11, title: "Organisms and Populations", pdfUrl: pdf(12, "biology", 11) },
+                    { number: 12, title: "Ecosystem", pdfUrl: pdf(12, "biology", 12) },
+                    { number: 13, title: "Biodiversity and Conservation", pdfUrl: pdf(12, "biology", 13) },
                 ]
             },
             {
@@ -951,9 +1060,23 @@ export function searchChapters(query: string): SearchResult[] {
     const lowerQuery = query.toLowerCase();
 
     for (const classData of classes) {
+        // Optimization: Check if class matches query
+        const classMatch = classData.name.toLowerCase().includes(lowerQuery);
+
         for (const subject of classData.subjects) {
+            // Optimization: Check if subject matches query
+            const subjectMatch = subject.name.toLowerCase().includes(lowerQuery);
+
             for (const chapter of subject.chapters) {
-                if (chapter.title.toLowerCase().includes(lowerQuery)) {
+                // Return result if:
+                // 1. Chapter title matches
+                // 2. Subject name matches
+                // 3. Class name matches
+                if (
+                    chapter.title.toLowerCase().includes(lowerQuery) ||
+                    subjectMatch ||
+                    classMatch
+                ) {
                     results.push({
                         classId: classData.id,
                         className: classData.name,

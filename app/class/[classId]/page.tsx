@@ -36,9 +36,7 @@ export default async function ClassPage({ params }: PageProps) {
                     <h1 className="text-4xl md:text-5xl font-bold mb-2">
                         {classData.name}
                     </h1>
-                    <p className="opacity-90">
-                        {classData.subjects.length} subjects available
-                    </p>
+
                 </div>
 
                 {/* Subjects Grid */}
@@ -73,8 +71,8 @@ export default async function ClassPage({ params }: PageProps) {
                                 key={c.id}
                                 href={`/class/${c.id}`}
                                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${c.id === classData.id
-                                        ? "bg-primary text-white"
-                                        : "bg-white text-text-secondary hover:bg-gray-100"
+                                    ? "bg-primary text-white"
+                                    : "bg-white text-text-secondary hover:bg-gray-100"
                                     }`}
                             >
                                 Class {c.id}

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-primary text-white py-16 md:py-24">
+      <section className="bg-primary text-white py-10 md:py-14">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fadeInUp">
             📚 NCERT Books PDF
@@ -22,28 +22,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features */}
-      <section className="py-12 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="text-center p-6">
-              <div className="text-4xl mb-4">🆓</div>
-              <h3 className="font-bold text-lg mb-2">100% Free</h3>
-              <p className="text-text-secondary text-sm">All PDFs are free to download and use</p>
-            </div>
-            <div className="text-center p-6">
-              <div className="text-4xl mb-4">📱</div>
-              <h3 className="font-bold text-lg mb-2">Mobile Friendly</h3>
-              <p className="text-text-secondary text-sm">Access on any device - phone, tablet, or computer</p>
-            </div>
-            <div className="text-center p-6">
-              <div className="text-4xl mb-4">✅</div>
-              <h3 className="font-bold text-lg mb-2">Official Content</h3>
-              <p className="text-text-secondary text-sm">Direct links to official NCERT resources</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Class Grid */}
       <section id="classes" className="py-12 md:py-16">

@@ -68,6 +68,7 @@ export default async function SubjectPage({ params }: PageProps) {
                     {subject.chapters.map((chapter, idx) => (
                         <div
                             key={chapter.number}
+                            id={`chapter-${chapter.number}`}
                             className="chapter-item animate-fadeInUp"
                             style={{ animationDelay: `${idx * 30}ms` }}
                         >
